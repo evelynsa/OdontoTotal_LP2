@@ -1,0 +1,236 @@
+<style>
+* {margin: 0; padding: 0;}
+body {
+
+background-image:url("ODONTOfundo.png");
+}
+
+img#delicia1 { /*edição da imagem de fundo */
+
+  width: 1361px;
+  height: 620px;
+  top: 0px;
+  left: -20px;
+  margin-left: -20px;
+  margin-top: -10px;
+
+}
+
+img#odonto { /*edição da imagem de odonto */
+
+position: absolute;
+  width: 450px;
+  height: 420px;
+  top: 120px;
+  left: 90px;
+  
+
+}
+
+img#logozinha { /*edição da imagem de odonto */
+
+position: absolute;
+  width: 280px;
+  height: 50px;
+  top: 20px;
+  left: 40px;
+  
+
+}
+
+img#inicio { /*edição da imagem de odonto */
+
+position: absolute;
+  width: 450px;
+  height: 320px;
+  top: 190px;
+  left: 620px;
+  
+
+}
+
+#principal{ /*edição do quadro branco */
+
+  position: absolute;
+  top: -35px;
+  left: -75px;
+  width:60%; 
+  padding: 560px 0% 0px 30%; /* tamanho do quadro*/
+  background: #fff;
+  border: 1px solid rgba(147, 184, 189,0.8);
+  align-content: center;
+  
+  -webkit-box-shadow: 5px;
+  border-radius: 5px;
+  
+}
+
+#tracoOdonto{ /*edição da linha aul do quadro branco */
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:60%; 
+  padding: 90px 0% 0px 40%; /* tamanho do quadro*/
+  background: #084B8A;
+  align-content: center;
+  
+  -webkit-box-shadow: 5px;
+  border-radius: 5px;
+  
+}
+
+/*edição do quadro de login */
+
+section#login{
+background: #ffffff;
+position: absolute;
+width: 500px;
+height: 400px;
+top:150px;
+left: 670px;
+}
+
+
+img#loginha {
+
+  width: 680px;
+  height: 130px;
+
+}
+
+#login{
+
+  position: center;
+  top: 0px;
+  background: rgb(247, 247, 247);
+  border: 6px solid;
+  border-color: #CEECF5;
+
+-webkit-box-shadow: 5px;
+border-radius: 5px; /*deixar a borda redonda*/
+}
+
+img#imagemICONE {
+
+  position: center;
+  margin-left: 100px;
+  margin-top: 15px;
+  width: 295px;
+  height: 85px;
+  border-image-source: 20px;
+
+}
+
+label{
+  color: #191970;
+  position: relative;
+  margin-left: 0px;
+  top: -1px;
+
+}
+
+label#nome_login{
+  color: #191970;
+  position: relative;
+  margin-left: 10px;
+  top: 18px;
+
+}
+
+label#email_login{
+  color: #191970;
+  position: relative;
+  margin-left: 10px;
+  top: 8px;
+
+}
+
+label#logado{
+margin-left: 0px;
+
+}
+
+input#logado{
+margin-left: 10px;
+
+}
+
+input:not([type="checkbox"]){
+   /* configurar oos campos onde escreve*/ 
+
+  width: 90%;
+  margin-top: 4px;
+  padding: 10px; /* tamanho da caixa */ 
+  border: 1px solid #b2b2b2;
+  margin-left: 10px;
+  -webkit-border-radius: 3px; /* deixar o meio da caixa branco */ 
+  border-radius: 3px; /* deixar o meio da caixa branco */ 
+  margin-top: 20px;
+
+
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset; /* dar um sombreado onde tem a caixa */ 
+  
+}
+
+input#email_login1{
+margin-top: 10px;
+}
+
+input[type="submit"]{
+ /* configurar o botao LOGAR */ 
+
+  cursor: pointer;  
+  background: #0B2161;
+  padding: 8px;
+  width: 200px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  text-shadow: 0 1px 1px #333;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+
+input[type="submit"]:hover{ /* configurar depois do botao ficar mais claro  */ 
+  background: #4169E1;
+  margin-top: 20px;
+}
+
+input[ type="submit"]{  /* configurar antes do botao ficar mais claro  */ 
+  background: #084B8A;
+  margin-top: 20px;
+}
+
+}
+
+
+input#submit [type="submit"]{
+  background: #170B3B;
+
+}
+
+a#Cadastrese{
+
+  
+  margin-left: 10px;
+  color: #0A0A2A;
+  }
+a#Cadastrese:hover{
+
+
+  margin-left: 10px;
+  color: #086A87;
+  }
+  p{
+
+    margin-left: 06px;
+  }
+
+  p#conta{ /*cadastresse*/
+
+    margin-left: 258px;
+    margin-top: -110px;
+    color: #0B2161;
+  }

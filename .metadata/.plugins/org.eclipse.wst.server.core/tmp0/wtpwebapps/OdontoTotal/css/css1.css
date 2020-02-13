@@ -1,0 +1,309 @@
+
+section#login{
+background: #ffffff;
+position: absolute;
+width: 450px;
+height: 500px;
+top:50px;
+left: 450px;
+}
+
+body{
+background-repeat: no-repeat;
+
+  background-size: cover;
+  width: 300px;
+  margin: 10;
+}
+
+img#delicia {
+
+  width: 1378px;
+  height: 620px;
+  top: -20px;
+  left: -20px;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+img#loginha {
+
+  width: 680px;
+  height: 130px;
+
+}
+
+img#delicia1 {
+
+  width: 1361px;
+  height: 910px;
+  top: 30px;
+  left: -20px;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+#login{
+
+  position: center;
+  top: 0px;
+  background: rgb(247, 247, 247);
+  border: 6px solid;
+  border-color: #CEECF5;
+
+-webkit-box-shadow: 5px;
+border-radius: 5px; /*deixar a borda redonda*/
+}
+
+img#imagemICONE {
+
+  position: center;
+  margin-left: 40px;
+  margin-top: 20px
+}
+
+label{
+  color: #191970;
+  position: relative;
+  margin-left: 0px;
+  top: -1px;
+
+}
+
+label#cadastrinho{
+  color: #191970;
+  position: relative;
+  margin-left: -65px;
+  top: -15px;
+}
+
+input#cadastrinho1{
+position: relative;
+top: -15px;
+left: 20px;
+} 
+
+
+
+input#cadastrinho2{
+position: relative;
+top: -15px;
+left: 13px;
+} 
+
+input#cadastrinho3{
+position: relative;
+top: -15px;
+left: 25px;
+} 
+
+input#cadastrinho4{
+position: relative;
+top: -15px;
+} 
+
+input#cadastrinho5{
+position: relative;
+top: -15px;
+left: 20px;
+} 
+
+
+label#nome_login{
+  color: #191970;
+  position: relative;
+  margin-left: 10px;
+  top: 18px;
+
+}
+
+label#email_login{
+  color: #191970;
+  position: relative;
+  margin-left: 10px;
+  top: 8px;
+
+}
+
+label#logado{
+margin-left: 0px;
+
+}
+
+input#logado{
+margin-left: 295px;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+} 
+input {
+  outline: none;
+}
+
+input:not([type="checkbox"]){
+   /* configurar oos campos onde escreve*/ 
+
+  width: 90%;
+  margin-top: 4px;
+  padding: 10px; /* tamanho da caixa */ 
+  border: 1px solid #b2b2b2;
+  margin-left: 10px;
+  -webkit-border-radius: 3px; /* deixar o meio da caixa branco */ 
+  border-radius: 3px; /* deixar o meio da caixa branco */ 
+  margin-top: 20px;
+
+
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset; /* dar um sombreado onde tem a caixa */ 
+  
+}
+
+input#email_login1{
+margin-top: 10px;
+}
+
+input[type="submit"]{
+ /* configurar o botao LOGAR */ 
+
+  cursor: pointer;  
+  background: #0B2161;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  text-shadow: 0 1px 1px #333;
+  margin-left: 23px;
+  margin-top: 0px;
+}
+
+input[type="submit"]:hover{ /* configurar depois do botao ficar mais claro  */ 
+  background: #4169E1;
+  margin-top: 05px;
+}
+
+input[ type="submit"]{  /* configurar antes do botao ficar mais claro  */ 
+  background: #170B3B;
+  margin-top: 05px;
+}
+
+.link1{ /* login */ 
+  position: absolute;
+  background: #e1eaeb;
+  color: #7f7c7c;
+  left: 5px;
+  height: 20px;
+  width: 400px;
+  padding: 7px 20px 10px 20px; 
+  text-align: right;
+  -webkit-border-radius: 0 0  5px 5px;
+  border-radius: 0 0  5px 5px;
+  top: 440px;
+}
+
+.link1 a {  /* cadastre-se */ 
+  font-weight: bold;
+  background: #f7f8f1;
+  padding: 6px;
+  color: #088A85;
+  margin-left: -10px;
+  border: 1px solid #F5A9A9;
+  -webkit-border-radius: 4px;
+  border-radius: 8px;  
+}
+
+a#Cadastrese{
+  position: relative;
+  top: 3px;
+  left: 12px;
+
+  }
+
+#cadastro{ /* quadro de cadastro*/
+  position: absolute;
+  top: 0px;
+  left: 80px;
+  width:60%; 
+  padding: 0px 0% 0px 6%; /* tamanho do quadro*/
+  background: rgb(247, 247, 247);
+  border: 1px solid rgba(147, 184, 189,0.8);
+  align-content: center;
+  
+  -webkit-box-shadow: 5px;
+  border-radius: 5px;
+  
+}
+
+.link{  /* caixa ja tem conta? */ 
+  position: relative;
+  background: #e1eaeb;
+  color: #7f7c7c;
+  left: -70px;
+  height: 20px;
+  width: 500px;
+  padding: 17px 30px 20px 340px;
+  font-size: 16px;
+  text-align: right;
+  border-top: 1px solid #dbe5e8;
+  top: 5px;
+
+  -webkit-border-radius: 0 0  5px 5px;
+  border-radius: 0 0  5px 5px;
+  position: relative;
+  float: bottom;
+}
+
+input#cadastrar{
+width: 830px ;
+margin-left: -52px;
+
+}
+
+.link a { /* ir pra login */ 
+  font-weight: bold;
+  background: #f7f8f1;
+  padding: 6px;
+  color: #088A85;
+  margin-left: 10px;
+  border: 1px solid #F5A9A9;
+
+  -webkit-border-radius: 4px;
+  border-radius: 4px;  
+
+}
+
+.link p {
+  padding: 100px;
+
+}
+
+.link a:hover {
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+
+input#submit [type="submit"]{
+  background: #170B3B;
+
+
+
+}
+
+img#loginha {
+
+  position: relative;
+  top: 30px;
+  left: -30px;
+}
+
+h2{
+  font-size: 35px;
+  color: #191970;
+  font-family: Segoe Ui,sans-serif;
+  margin-top: 50px;
+  margin-left: -65px;
+
+}
